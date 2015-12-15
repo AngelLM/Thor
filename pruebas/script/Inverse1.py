@@ -50,9 +50,8 @@ result_angles = JntArray(thor.getNrOfJoints())
 sending_angles = JntArray(thor.getNrOfJoints())
 
 fin=0
-finbreak=0
 
-while fin!=1 and finbreak!=1:
+while fin!=1:
 	x=input("x: ")
 	y=input("y: ")
 	z=input("z: ")
@@ -66,7 +65,7 @@ while fin!=1 and finbreak!=1:
 	for i in [0, 1, 2, 3, 4, 5]:
 		sending_angles[i]=round(degrees(result_angles[i]),0)
 	
-	while finbreak==0 and (sending_angles[0]>180 or sending_angles[0]<-180 or sending_angles[1]>90 or sending_angles[1]<-90 or sending_angles[2]>90 or sending_angles[2]<-90 or sending_angles[3]>180 or sending_angles[3]<-180 or sending_angles[4]>90 or sending_angles[4]<-90 or sending_angles[5]>180 or sending_angles[5]<-180):
+	while sending_angles[0]>180 or sending_angles[0]<-180 or sending_angles[1]>90 or sending_angles[1]<-90 or sending_angles[2]>90 or sending_angles[2]<-90 or sending_angles[3]>180 or sending_angles[3]<-180 or sending_angles[4]>90 or sending_angles[4]<-90 or sending_angles[5]>180 or sending_angles[5]<-180:
 		for i in [0,3,5]:
 			if sending_angles[i]>180:
 				sending_angles[i]=sending_angles[i]-360
@@ -83,8 +82,10 @@ while fin!=1 and finbreak!=1:
 			elif sending_angles[i]<=-270:
 				sending_angles[i]=360+sending_angles[i]
 			elif (sending_angles[i]>90 and sending_angles[i]<270) or (sending_angles[i]<-90 and sending_angles[i]>-270):
-				print 'break',i,'\n'
-				finbreak=1
+				print 'Angulos intentados: ', sending_angles[0], sending_angles[1], sending_angles[2], sending_angles[3], sending_angles[4], sending_angles[5], '\n'
+				for j in [0,1,2,3,4,5]:
+					sending_angles[j]=current_angles[j]
+				print 'Punto inalcanzable, introduce otro',i,'\n'
 
 
 	print 'Angulos enviados: ', sending_angles[0], sending_angles[1], sending_angles[2], sending_angles[3], sending_angles[4], sending_angles[5], '\n'
