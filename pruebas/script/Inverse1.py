@@ -21,10 +21,34 @@ thor.addSegment(Segment(Joint(Joint.RotZ), Frame(Vector(0,0,104.5))))
 thor.addSegment(Segment(Joint(Joint.RotY), Frame(Vector(0,0,66.5))))
 thor.addSegment(Segment(Joint(Joint.RotZ)))
 
-ik_solver = ChainIkSolverPos_LMA(thor)
-current_angles = JntArray(thor.getNrOfJoints())
+"""q_min = JntArray(thor.getNrOfJoints())
+q_max = JntArray(thor.getNrOfJoints())
 
+q_min[0]=-3.14
+q_min[1]=-1.57
+q_min[2]=-1.57
+q_min[3]=-3.14
+q_min[4]=-1.57
+q_min[5]=-3.14
+
+q_max[0]=3.14
+q_max[1]=1.57
+q_max[2]=1.57
+q_max[3]=3.14
+q_max[4]=1.57
+q_max[5]=3.14
+
+
+fksolver = ChainFkSolverPos_recursive(thor)
+iksolver = ChainIkSolverVel_pinv_givens(thor)"""
+
+ik_solver = ChainIkSolverPos_LMA(thor)
+# inv_pos_solver = ChainIkSolverPos_NR_JL(thor,q_min,q_max,fksolver,iksolver)
+
+current_angles = JntArray(thor.getNrOfJoints())
 result_angles = JntArray(thor.getNrOfJoints())
+sending_angles = JntArray(thor.getNrOfJoints())
+
 fin=0
 
 while fin!=1:
@@ -37,42 +61,50 @@ while fin!=1:
 	print 'Current: ', degrees(current_angles[0]), degrees(current_angles[1]), degrees(current_angles[2]), degrees(current_angles[3]), degrees(current_angles[4]), degrees(current_angles[5]), '\n'
 
 	ik_solver.CartToJnt(current_angles, target_frame, result_angles)
+	# inv_pos_solver.CartToJnt(current_angles, target_frame, result_angles)
 
-	while result_angles[0]<-6.28 or result_angles[0]>6.28 or result_angles[1]<-3.14 or result_angles[1]>3.14 or result_angles[2]<-3.14 or result_angles[2]>3.14 or result_angles[3]<-6.28 or result_angles[3]>6.28 or result_angles[4]<-3.14 or result_angles[4]>3.14 or result_angles[5]<-6.28 or result_angles[5]>6.28:
-		if result_angles[0]<-6.28:
-			result_angles[0]=result_angles[0]+6.28
-		if result_angles[0]>6.28:
-			result_angles[0]=result_angles[0]-6.28
-		if result_angles[1]<-3.14:
-			result_angles[1]=result_angles[1]+3.14
-		if result_angles[1]>3.14:
-			result_angles[1]=result_angles[1]-3.14
-		if result_angles[2]<-3.14:
-			result_angles[2]=result_angles[2]+3.14
-		if result_angles[2]>3.14:
-			result_angles[2]=result_angles[2]-3.14
-		if result_angles[3]<-6.28:
-			result_angles[3]=result_angles[3]+6.28
-		if result_angles[3]>6.28:
-			result_angles[3]=result_angles[3]-6.28
-		if result_angles[4]<-3.14:
-			result_angles[4]=result_angles[4]+3.14
-		if result_angles[4]>3.14:
-			result_angles[4]=result_angles[4]-3.14
-		if result_angles[5]<-6.28:
-			result_angles[5]=result_angles[5]+6.28
-		if result_angles[5]>6.28:
-			result_angles[5]=result_angles[5]-6.28
+	#print 'Result Antes: ', degrees(result_angles[0]), degrees(result_angles[1]), degrees(result_angles[2]), degrees(result_angles[3]), degrees(result_angles[4]), degrees(result_angles[5]), '\n'
 
 	for i in [0, 1, 2, 3, 4, 5]:
-		if result_angles[i]<0.001 and result_angles[i]>-0.001:
-			result_angles[i]=0
+		sending_angles[i]=round(degrees(result_angles[i]),0)
 
-	print 'Result: ', degrees(result_angles[0]), degrees(result_angles[1]), degrees(result_angles[2]), degrees(result_angles[3]), degrees(result_angles[4]), degrees(result_angles[5]), '\n'
+	print 'Result Despues round: ', sending_angles[0], sending_angles[1], sending_angles[2], sending_angles[3], sending_angles[4], sending_angles[5], '\n'
 	
-	current_angles=result_angles
-	s0.write("G01 F2000 X"+str(degrees(result_angles[0]))+" Y"+str(degrees(result_angles[1]))+" Z"+str(degrees(result_angles[2]))+" \n")
-	s1.write("G01 F2000 X"+str(degrees(result_angles[3]))+" Y"+str(degrees(result_angles[4]))+" Z"+str(degrees(result_angles[5]))+" \n")
+	while sending_angles[0]>180 or sending_angles[0]<-180 or sending_angles[1]>90 or sending_angles[1]<-90 or sending_angles[2]>90 or sending_angles[2]<-90 or sending_angles[3]>180 or sending_angles[3]<-180 or sending_angles[4]>90 or sending_angles[4]<-90 or sending_angles[5]>180 or sending_angles[5]<-180:
+		for i in [0,3,5]:
+			if sending_angles[i]==360 or sending_angles[i]==-360:
+				sending_angles[i]=0
+			elif sending_angles[i]>180 and sending_angles[i]<185:
+				sending_angles[i]=180
+			elif sending_angles[i]>185:
+				sending_angles[i]=sending_angles[i]-180
+			elif sending_angles <-180 and sending_angles >-185:
+				sending_angles[i]=-180
+			elif sending_angles[i]<-185:
+				sending_angles[i]=sending_angles[i]+180
+
+		for i in [1,2,4]:
+			if sending_angles[i]==360 or sending_angles[i]==-360:
+				sending_angles[i]=0
+			elif sending_angles[i]>90 and sending_angles[i]<95:
+				sending_angles[i]=90
+			elif sending_angles[i]>95:
+				sending_angles[i]=sending_angles[i]-90
+			elif sending_angles <-90 and sending_angles >-95:
+				sending_angles[i]=-90
+			elif sending_angles[i]<-95:
+				sending_angles[i]=sending_angles[i]+90
+
+
+	print 'Result Despues filtro: ', sending_angles[0], sending_angles[1], sending_angles[2], sending_angles[3], sending_angles[4], sending_angles[5], '\n'
+	
+	for i in [0, 1, 2, 3, 4, 5]:
+		current_angles[i]=radians(sending_angles[i])
+
+	s0.write("G01 F2000 X"+str(sending_angles[0])+" Y"+str(sending_angles[1])+" Z"+str(sending_angles[2])+" \n")
+	s1.write("G01 F2000 X"+str(sending_angles[3])+" Y"+str(sending_angles[4])+" Z"+str(sending_angles[5])+" \n")
+	s0.flush()
+	s1.flush()
 	
 	fin=input("Fin? 1")
 
