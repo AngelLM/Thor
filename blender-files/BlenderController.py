@@ -42,12 +42,12 @@ def sendAngles():
 	bone3=ob.pose.bones['Art3']
 	bone4=ob.pose.bones['Art4']
 	bone5=ob.pose.bones['Art56']
-	    
-	angle1=str(round(math.degrees(get_local_orientation(bone1)[1])+offset1))#[0]=x,[1]=y,[2]=z
+	
+	angle1=str(round(math.degrees(get_local_orientation(bone1)[2])+offset1))#[0]=x,[1]=y,[2]=z
 	angle2=str(round(math.degrees(get_local_orientation(bone2)[0])+offset2))
-	angle3=str(round(math.degrees(get_local_orientation(bone1)[0])+offset3))
-	angle4=str(round(math.degrees(get_local_orientation(bone2)[1])+offset4))
-	angle5=str(round(math.degrees(get_local_orientation(bone1)[0])+offset5))
+	angle3=str(round(math.degrees(get_local_orientation(bone3)[0])+offset3))
+	angle4=str(round(math.degrees(get_local_orientation(bone4)[2])+offset4))
+	angle5=str(round(math.degrees(get_local_orientation(bone5)[0])+offset5))
 	print( "%s  %s  %s  %s  %s  \n" %( angle1, angle2, angle3, angle4, angle5 ) )
 
 	#ser.write((angle1+','+angle2).encode('UTF-8'))
