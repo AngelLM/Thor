@@ -6,9 +6,20 @@ import sys
 import serial
 import glob
 
-"""port=''.join(glob.glob("/dev/ttyUSB*"))
-ser = serial.Serial(port,115200)
-print("connected to: " + ser.portstr)"""
+
+puerto0='/dev/ttyUSB0'
+puerto1='/dev/ttyUSB1'
+
+time.sleep(2)
+
+s0=serial.Serial(puerto0,115200)
+s1=serial.Serial(puerto1,115200)
+
+s0.write(('M17 \n').encode('UTF-8'))
+s1.write(('M17 \n').encode('UTF-8'))
+# port=''.join(glob.glob("/dev/ttyUSB*"))
+# ser = serial.Serial(port,115200)
+# print("connected to: " + ser.portstr)
 
 
 ob = bpy.data.objects['Armature']
@@ -21,17 +32,17 @@ offset2=0
 offset3=0
 offset4=0
 offset5=0
-
+order = 'ZYX'
 
 
 def get_local_orientation(pose_bone):
-    local_orientation = pose_bone.matrix_channel.to_euler()
+    local_orientation = pose_bone.matrix_channel.to_euler(order)
     if pose_bone.parent is None:
         return local_orientation
     else:
-        x=local_orientation.x-pose_bone.parent.matrix_channel.to_euler().x
-        y=local_orientation.y-pose_bone.parent.matrix_channel.to_euler().y
-        z=local_orientation.z-pose_bone.parent.matrix_channel.to_euler().z
+        x=local_orientation.x-pose_bone.parent.matrix_channel.to_euler(order).x
+        y=local_orientation.y-pose_bone.parent.matrix_channel.to_euler(order).y
+        z=local_orientation.z-pose_bone.parent.matrix_channel.to_euler(order).z
         return(x,y,z)
 
 
@@ -48,10 +59,14 @@ def sendAngles():
 	angle3=str(round(math.degrees(get_local_orientation(bone3)[0])+offset3))
 	angle4=str(round(math.degrees(get_local_orientation(bone4)[2])+offset4))
 	angle5=str(round(math.degrees(get_local_orientation(bone5)[0])+offset5))
+	
+
 	print( "%s  %s  %s  %s  %s  \n" %( angle1, angle2, angle3, angle4, angle5 ) )
 
-	#ser.write((angle1+','+angle2).encode('UTF-8'))
-
+	s0.write(('G01 F2000 X'+angle1+' Y'+angle2+' Z'+angle3+' \n').encode('UTF-8'))
+	s1.write(('G01 F2000 X'+angle4+' Y'+angle5+' Z'+angle5+' \n').encode('UTF-8'))
+	s0.flush()
+	s1.flush()
 
 
 
