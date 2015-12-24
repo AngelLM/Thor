@@ -396,11 +396,11 @@ const bool Z_MIN_PROBE_ENDSTOP_INVERTING = false; // set to true to invert the l
 
 // Travel limits after homing (units are in mm)
 #define X_MIN_POS -180
-#define Y_MIN_POS -90
-#define Z_MIN_POS -180
+#define Y_MIN_POS -100
+#define Z_MIN_POS -100
 #define X_MAX_POS 180
-#define Y_MAX_POS 90
-#define Z_MAX_POS 180
+#define Y_MAX_POS 100
+#define Z_MAX_POS 100
 
 //===========================================================================
 //========================= Filament Runout Sensor ==========================
@@ -587,7 +587,7 @@ const bool Z_MIN_PROBE_ENDSTOP_INVERTING = false; // set to true to invert the l
 
 // default settings
 
-#define DEFAULT_AXIS_STEPS_PER_UNIT   {18,16.666,16.666,500}  // default steps per unit for Ultimaker
+#define DEFAULT_AXIS_STEPS_PER_UNIT   {18,54,54,500}  // default steps per unit for Ultimaker
 #define DEFAULT_MAX_FEEDRATE          {250, 250, 250, 25}    // (mm/sec)
 #define DEFAULT_MAX_ACCELERATION      {3000,3000,3000,10000}    // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for Skeinforge 40+, for older versions raise them a lot.
 
