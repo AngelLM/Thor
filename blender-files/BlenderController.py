@@ -58,7 +58,7 @@ def sendAngles():
 	angle2=str(round(math.degrees(get_local_orientation(bone2)[0])+offset2))
 	angle3=str(round(math.degrees(get_local_orientation(bone3)[0])+offset3))
 	angle4=str(round(math.degrees(get_local_orientation(bone4)[2])+offset4))
-	angle5=str(round(math.degrees(get_local_orientation(bone5)[0])+offset5))
+	angle5=str(round(math.degrees(get_local_orientation(bone5)[0])+offset5)/27)
 	
 
 	print( "%s  %s  %s  %s  %s  \n" %( angle1, angle2, angle3, angle4, angle5 ) )
