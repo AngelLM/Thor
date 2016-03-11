@@ -1,4 +1,4 @@
-update=jue 03 mar 2016 12:11:50 CET
+update=vie 11 mar 2016 23:54:41 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -20,8 +20,6 @@ SolderMaskMinWidth=0.000000000000
 DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -55,7 +53,9 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=/home/angellm/Desktop/pololu_a4988
+
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
