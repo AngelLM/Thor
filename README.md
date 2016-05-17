@@ -12,7 +12,7 @@ Repository for Thor, a robotic arm made with FreeCAD.
 
 # Thanks
 
-- Sponsored by BQ untill March 2016
+- Sponsored by BQ until March 2016
 
 
 # License 
