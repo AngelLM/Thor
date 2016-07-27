@@ -1,8 +1,18 @@
-# Thor
+<img src="doc/logo.png" width="500">
+
+Thor is an Open Source and printable robotic arm with six degrees of freedom.
+Its configuration (yaw-roll-roll-yaw-roll-yaw) is the same one that is used on most manipulator robots that currently exist in the market.
+In its upright position, Thor is about 625mm and it can lift objects up to 750 grams.
 
 <img src="doc/main.png" width="500">
 
-Repository for Thor, a robotic arm made with FreeCAD. 
+The project started a year ago as my Final Degree Project called "Design and startup of an Open Source and printable 6DOF robotic arm" but a lot of things have changed since the presentation day.
+
+The main purpose of this project was to create a robotic arm that could be used in universities and schools to teach robotics instead of using simulation software or low accurate models. Having this in mind, the final prototype had to be affordable and, of course, Open Source. Once the project begun, I realized that it could be helpful in many areas I had not imagined when I first came up with the idea: small automatizations, training in factories, makers...
+
+As I said, this is a low-cost robotic arm. The cost of the whole materials is under 350€. Being this affordable, I think almost every school/university/maker could make good use of one at least!
+
+In terms of licenses, I wanted this project to be Open Source because I want anyone to have the opportunity to study, modify and improve it. Given this decision, I designed it entirely using Open Source software. This way, everyone can open the source files and modify them without buying licenses of proprietary software (sometimes unaffordable). There is not a single reason for not hacking Thor!
 
 
 # Contribute
@@ -12,7 +22,9 @@ Repository for Thor, a robotic arm made with FreeCAD.
 
 # Thanks
 
-- Sponsored by BQ until March 2016
+Until March of 2016 this project was sponsored by BQ, I would like to thank the company and my colleagues because without them, this project would have not been possible.
+Also I would like to thank Miguel Hernando, who was my Final Degree Project tuthor, for his help and awesome tips.
+Of course, I also would like to thank my friends and family for the support and the hours of listening.
 
 
 # License 
