@@ -1,10 +1,10 @@
-<img src="doc/logo.png" width="500">
+<img src="doc/logo.png" width="500" align="center">
 
 Thor is an Open Source and printable robotic arm with six degrees of freedom.
 Its configuration (yaw-roll-roll-yaw-roll-yaw) is the same one that is used on most manipulator robots that currently exist in the market.
 In its upright position, Thor is about 625mm and it can lift objects up to 750 grams.
 
-<img src="doc/main.png" width="500">
+<img src="doc/main.jpg" width="800" align="center">
 
 The project started a year ago as my Final Degree Project called "Design and startup of an Open Source and printable 6DOF robotic arm" but a lot of things have changed since the presentation day.
 
@@ -14,10 +14,20 @@ As I said, this is a low-cost robotic arm. The cost of the whole materials is un
 
 In terms of licenses, I wanted this project to be Open Source because I want anyone to have the opportunity to study, modify and improve it. Given this decision, I designed it entirely using Open Source software. This way, everyone can open the source files and modify them without buying licenses of proprietary software (sometimes unaffordable). There is not a single reason for not hacking Thor!
 
+More about this project on the [Hackaday post](https://hackaday.io/project/12989-thor)!
+
+# Repository Index
+* [doc](https://github.com/AngelLM/Thor/tree/developer/doc) - Misc documentation files
+* [electronics](https://github.com/AngelLM/Thor/tree/developer/electronics) - ControlPCB & SensorPCB KiCAD, gerbers & GCODE files 
+* [freecad-src](https://github.com/AngelLM/Thor/tree/developer/freecad-src) - FreeCAD source files of every piece of Thor
+  * [accessories](https://github.com/AngelLM/Thor/tree/developer/freecad-src/accessories) - Accessories for Thor (tools & end-effectors)
+  * [animation](https://github.com/AngelLM/Thor/tree/developer/freecad-src/animation) - FreeCAD files used to animate the assembly. Check the [ExplodedAssembly FreeCAD workbench](https://github.com/JMG1/ExplodedAssembly)
+* [stl](https://github.com/AngelLM/Thor/tree/developer/stl) - stl files of every piece of Thor
+* firmware - The firmware used in this project is a grlb modification that can be found on [this repository](https://github.com/AngelLM/grbl)
 
 # Contribute
 
- Do not hesitate on contributing to this project!
+Do not hesitate on contributing to this project!
 
 
 # Thanks
