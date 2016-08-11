@@ -1,11 +1,11 @@
 # LIST OF MATERIALS
 ## 3D Printing
-* 4x Filament reels
+* 4x Kg of filament
 
 ## Stepper Motors
-* 2x Nema 17 40mm
-* 3x Nema 17 with 5:1 mechanical reduction
-* 2x Nema 17 34mm
+* 2x Nema 17; L=40mm; Holding torque: 39.22 N.cm 
+* 3x Nema 17; L=34mm; 5:1 mechanical reduction; Holding torque: 121.2 N.cm 
+* 2x Nema 17; L=34mm; Holding torque: 21.57 N.cm 
 
 ## Belts & Pulleys
 * 2x GT2 Closed belt 208mm (104teeth)
