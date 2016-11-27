@@ -1306,7 +1306,7 @@ F 3 "" H 10450 2350 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 9750 2450 0    60   Output ~ 0
-STEPM1
+STEPM4
 Text GLabel 9750 2850 0    60   Output ~ 0
 DIRM1
 Text GLabel 9750 2550 0    60   Output ~ 0
@@ -1314,23 +1314,23 @@ STEPM3
 Text GLabel 9750 2950 0    60   Output ~ 0
 DIRM3
 Text GLabel 9750 2650 0    60   Output ~ 0
-STEPM5
+STEPM2
 Text GLabel 9750 3050 0    60   Output ~ 0
 DIRM5
 Text GLabel 9750 2750 0    60   Output ~ 0
-STEPM7
+STEPM1
 Text GLabel 9750 3150 0    60   Output ~ 0
 DIRM7
 Text GLabel 10450 2450 2    60   Output ~ 0
-STEPM2
+STEPM5
 Text GLabel 10450 2850 2    60   Output ~ 0
 DIRM2
 Text GLabel 10450 2550 2    60   Output ~ 0
-STEPM4
+STEPM6
 Text GLabel 10450 2950 2    60   Output ~ 0
 DIRM4
 Text GLabel 10450 2650 2    60   Output ~ 0
-STEPM6
+STEPM7
 Text GLabel 10450 3050 2    60   Output ~ 0
 DIRM6
 Text GLabel 9750 3450 0    60   Input ~ 0
@@ -1523,7 +1523,7 @@ F 1 "CONN_02X03" H 4700 4950 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x03" H 4700 3950 50  0001 C CNN
 F 3 "" H 4700 3950 50  0000 C CNN
 	1    4700 5150
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L POLOLU_A4988 U8
@@ -1556,7 +1556,7 @@ F 1 "CONN_02X03" H 4700 3650 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x03" H 4700 2650 50  0001 C CNN
 F 3 "" H 4700 2650 50  0000 C CNN
 	1    4700 3850
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L VCC #PWR080
@@ -1578,7 +1578,7 @@ F 1 "CONN_02X03" H 4700 2400 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x03" H 4700 1400 50  0001 C CNN
 F 3 "" H 4700 1400 50  0000 C CNN
 	1    4700 2600
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L VCC #PWR081
@@ -1600,7 +1600,7 @@ F 1 "CONN_02X03" H 1150 2400 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x03" H 1150 1400 50  0001 C CNN
 F 3 "" H 1150 1400 50  0000 C CNN
 	1    1150 2600
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L VCC #PWR082
@@ -1622,7 +1622,7 @@ F 1 "CONN_02X03" H 1150 3650 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x03" H 1150 2650 50  0001 C CNN
 F 3 "" H 1150 2650 50  0000 C CNN
 	1    1150 3850
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L VCC #PWR083
@@ -1644,7 +1644,7 @@ F 1 "CONN_02X03" H 1150 4950 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x03" H 1150 3950 50  0001 C CNN
 F 3 "" H 1150 3950 50  0000 C CNN
 	1    1150 5150
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L VCC #PWR084
@@ -1666,7 +1666,7 @@ F 1 "CONN_02X03" H 1150 1100 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x03" H 1150 100 50  0001 C CNN
 F 3 "" H 1150 100 50  0000 C CNN
 	1    1150 1300
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L VCC #PWR085
@@ -1688,7 +1688,7 @@ F 1 "CONN_02X03" H 4700 1100 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x03" H 4700 100 50  0001 C CNN
 F 3 "" H 4700 100 50  0000 C CNN
 	1    4700 1300
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L R R2
