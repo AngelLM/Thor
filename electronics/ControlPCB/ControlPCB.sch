@@ -1262,17 +1262,6 @@ $EndComp
 Text GLabel 1600 700  0    60   Input ~ 0
 ENABLEM
 $Comp
-L GND #PWR062
-U 1 1 56D91FA1
-P 9750 4050
-F 0 "#PWR062" H 9750 3800 50  0001 C CNN
-F 1 "GND" H 9750 3900 50  0000 C CNN
-F 2 "" H 9750 4050 50  0000 C CNN
-F 3 "" H 9750 4050 50  0000 C CNN
-	1    9750 4050
-	0    1    1    0   
-$EndComp
-$Comp
 L GND #PWR063
 U 1 1 56D9202D
 P 10450 4050
@@ -1306,43 +1295,43 @@ F 3 "" H 10450 2350 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 9750 2450 0    60   Output ~ 0
-STEPM1
+STEPM4
 Text GLabel 9750 2850 0    60   Output ~ 0
-DIRM1
+DIRM4
 Text GLabel 9750 2550 0    60   Output ~ 0
 STEPM3
 Text GLabel 9750 2950 0    60   Output ~ 0
 DIRM3
 Text GLabel 9750 2650 0    60   Output ~ 0
-STEPM5
-Text GLabel 9750 3050 0    60   Output ~ 0
-DIRM5
-Text GLabel 9750 2750 0    60   Output ~ 0
-STEPM7
-Text GLabel 9750 3150 0    60   Output ~ 0
-DIRM7
-Text GLabel 10450 2450 2    60   Output ~ 0
 STEPM2
-Text GLabel 10450 2850 2    60   Output ~ 0
+Text GLabel 9750 3050 0    60   Output ~ 0
 DIRM2
+Text GLabel 9750 2750 0    60   Output ~ 0
+STEPM1
+Text GLabel 9750 3150 0    60   Output ~ 0
+DIRM1
+Text GLabel 10450 2450 2    60   Output ~ 0
+STEPM5
+Text GLabel 10450 2850 2    60   Output ~ 0
+DIRM5
 Text GLabel 10450 2550 2    60   Output ~ 0
-STEPM4
-Text GLabel 10450 2950 2    60   Output ~ 0
-DIRM4
-Text GLabel 10450 2650 2    60   Output ~ 0
 STEPM6
-Text GLabel 10450 3050 2    60   Output ~ 0
+Text GLabel 10450 2950 2    60   Output ~ 0
 DIRM6
+Text GLabel 10450 2650 2    60   Output ~ 0
+STEPM7
+Text GLabel 10450 3050 2    60   Output ~ 0
+DIRM7
 Text GLabel 9750 3450 0    60   Input ~ 0
 SOPTO1
 Text GLabel 10450 3450 2    60   Input ~ 0
-SOPTO2
+SOPTO8
 Text GLabel 9750 3550 0    60   Input ~ 0
-SOPTO3
+SOPTO2
 Text GLabel 10450 3550 2    60   Input ~ 0
-SOPTO4
+SOPTO7
 Text GLabel 9750 3650 0    60   Input ~ 0
-SOPTO5
+SOPTO3
 Text GLabel 10450 3650 2    60   Input ~ 0
 SOPTO6
 Text GLabel 10450 3350 2    60   Input ~ 0
@@ -2196,9 +2185,9 @@ $EndComp
 Text GLabel 9750 3350 0    60   Output ~ 0
 ENABLEM
 Text GLabel 9750 3750 0    60   Input ~ 0
-SOPTO7
+SOPTO4
 Text GLabel 10450 3750 2    60   Input ~ 0
-SOPTO8
+SOPTO5
 NoConn ~ 10350 3950
 NoConn ~ 10350 3850
 NoConn ~ 9850 3850
@@ -2476,8 +2465,6 @@ Wire Wire Line
 	10350 2350 10450 2350
 Wire Wire Line
 	9850 2350 9750 2350
-Wire Wire Line
-	9750 4050 9850 4050
 Wire Wire Line
 	10450 4050 10350 4050
 Wire Wire Line
@@ -3134,4 +3121,5 @@ Wire Wire Line
 Wire Wire Line
 	4650 4850 4950 4850
 Connection ~ 4950 4950
+NoConn ~ 9850 4050
 $EndSCHEMATC
