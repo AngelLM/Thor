@@ -3,7 +3,7 @@
   (general
     (links 262)
     (no_connects 0)
-    (area 90.772038 70.3708 207.128628 147.734)
+    (area 91.389999 71.958999 191.312001 140.258001)
     (thickness 1.6)
     (drawings 60)
     (tracks 820)
@@ -337,7 +337,7 @@
       (net 3 VDD))
     (pad 2 thru_hole circle (at 5.1 0 180) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask)
       (net 103 "Net-(F1-Pad2)"))
-    (model /home/angellm/repos/Thor/electronics/ControlPCB/Modules/PPTC/mf-r800.wrl
+    (model ${KIPRJMOD}/Modules/PPTC/mf-r800.wrl
       (at (xyz 0 0 1))
       (scale (xyz 0.393701 0.393701 0.393701))
       (rotate (xyz -90 0 180))
@@ -537,7 +537,7 @@
       (net 103 "Net-(F1-Pad2)"))
     (pad 1 thru_hole oval (at 5.08 0 180) (size 1.9812 3.9624) (drill 1.3208) (layers *.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model /home/angellm/Desktop/conn.wrl
+    (model ${KIPRJMOD}/Modules/Connector/conn.wrl
       (at (xyz 0.1 0.015 0.31))
       (scale (xyz 0.393701 0.393701 0.393701))
       (rotate (xyz -90 0 180))
@@ -2900,7 +2900,7 @@
       (net 3 VDD))
     (pad 2 thru_hole oval (at 5.08 0 180) (size 1.9812 3.9624) (drill 1.3208) (layers *.Cu F.Paste F.Mask)
       (net 2 +12V))
-    (model /home/angellm/Desktop/conn.wrl
+    (model ${KIPRJMOD}/Modules/Connector/conn.wrl
       (at (xyz 0.1 0.015 0.31))
       (scale (xyz 0.393701 0.393701 0.393701))
       (rotate (xyz -90 0 180))
@@ -3049,7 +3049,7 @@
       (net 15 STEPM8))
     (pad 16 thru_hole circle (at -8.89 -6.35 180) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 23 DIRM8))
-    (model "/home/angellm/repos/Thor/electronics/ControlPCB/Modules/Pololu Driver/pololu.wrl"
+    (model "${KIPRJMOD}/Modules/Pololu Driver/pololu.wrl"
       (at (xyz 0 0 0.375))
       (scale (xyz 0.393701 0.393701 0.393701))
       (rotate (xyz 0 0 0))
@@ -3101,7 +3101,7 @@
       (net 14 STEPM7))
     (pad 16 thru_hole circle (at -8.89 -6.35 180) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 22 DIRM7))
-    (model "/home/angellm/repos/Thor/electronics/ControlPCB/Modules/Pololu Driver/pololu.wrl"
+    (model "${KIPRJMOD}/Modules/Pololu Driver/pololu.wrl"
       (at (xyz 0 0 0.375))
       (scale (xyz 0.393701 0.393701 0.393701))
       (rotate (xyz 0 0 0))
@@ -3153,7 +3153,7 @@
       (net 13 STEPM6))
     (pad 16 thru_hole circle (at -8.89 -6.35 180) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 21 DIRM6))
-    (model "/home/angellm/repos/Thor/electronics/ControlPCB/Modules/Pololu Driver/pololu.wrl"
+    (model "${KIPRJMOD}/Modules/Pololu Driver/pololu.wrl"
       (at (xyz 0 0 0.375))
       (scale (xyz 0.393701 0.393701 0.393701))
       (rotate (xyz 0 0 0))
@@ -3205,7 +3205,7 @@
       (net 12 STEPM5))
     (pad 16 thru_hole circle (at -8.89 -6.35 180) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 20 DIRM5))
-    (model "/home/angellm/repos/Thor/electronics/ControlPCB/Modules/Pololu Driver/pololu.wrl"
+    (model "${KIPRJMOD}/Modules/Pololu Driver/pololu.wrl"
       (at (xyz 0 0 0.375))
       (scale (xyz 0.393701 0.393701 0.393701))
       (rotate (xyz 0 0 0))
@@ -3257,7 +3257,7 @@
       (net 11 STEPM4))
     (pad 16 thru_hole circle (at -8.89 -6.35 180) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 19 DIRM4))
-    (model "/home/angellm/repos/Thor/electronics/ControlPCB/Modules/Pololu Driver/pololu.wrl"
+    (model "${KIPRJMOD}/Modules/Pololu Driver/pololu.wrl"
       (at (xyz 0 0 0.375))
       (scale (xyz 0.393701 0.393701 0.393701))
       (rotate (xyz 0 0 0))
@@ -3309,7 +3309,7 @@
       (net 10 STEPM3))
     (pad 16 thru_hole circle (at -8.89 -6.35 180) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 18 DIRM3))
-    (model "/home/angellm/repos/Thor/electronics/ControlPCB/Modules/Pololu Driver/pololu.wrl"
+    (model "${KIPRJMOD}/Modules/Pololu Driver/pololu.wrl"
       (at (xyz 0 0 0.375))
       (scale (xyz 0.393701 0.393701 0.393701))
       (rotate (xyz 0 0 0))
@@ -3361,7 +3361,7 @@
       (net 9 STEPM2))
     (pad 16 thru_hole circle (at -8.89 -6.35 180) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 17 DIRM2))
-    (model "/home/angellm/repos/Thor/electronics/ControlPCB/Modules/Pololu Driver/pololu.wrl"
+    (model "${KIPRJMOD}/Modules/Pololu Driver/pololu.wrl"
       (at (xyz 0 0 0.375))
       (scale (xyz 0.393701 0.393701 0.393701))
       (rotate (xyz 0 0 0))
@@ -3413,7 +3413,7 @@
       (net 8 STEPM1))
     (pad 16 thru_hole circle (at -8.89 -6.35 180) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 16 DIRM1))
-    (model "/home/angellm/repos/Thor/electronics/ControlPCB/Modules/Pololu Driver/pololu.wrl"
+    (model "${KIPRJMOD}/Modules/Pololu Driver/pololu.wrl"
       (at (xyz 0 0 0.375))
       (scale (xyz 0.393701 0.393701 0.393701))
       (rotate (xyz 0 0 0))
