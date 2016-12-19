@@ -25,7 +25,11 @@ More about this project on the [Hackaday post](https://hackaday.io/project/12989
 * [stl](https://github.com/AngelLM/Thor/tree/developer/stl) - stl files of every piece of Thor
 * firmware - The firmware used in this project is a grlb modification that can be found on [this repository](https://github.com/AngelLM/grbl)
 
-# Contribute
+# Contributors
+
+* [AngelLM](https://github.com/AngelLM): Main author. Released the project as Open Source and is the current maintainer.
+
+* [Danny-VdH](https://github.com/Danny-VdH): Check his modifications & features at [Hackaday post: Thor robot with addons and GUI](https://hackaday.io/project/16665-thor-robot-with-addons-and-gui)!
 
 Do not hesitate on contributing to this project!
 
