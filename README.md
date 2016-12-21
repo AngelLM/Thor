@@ -22,7 +22,9 @@ More about this project on the [Hackaday post](https://hackaday.io/project/12989
 * [freecad-src](https://github.com/AngelLM/Thor/tree/developer/freecad-src) - FreeCAD source files of every piece of Thor
   * [accessories](https://github.com/AngelLM/Thor/tree/developer/freecad-src/accessories) - Accessories for Thor (tools & end-effectors)
   * [animation](https://github.com/AngelLM/Thor/tree/developer/freecad-src/animation) - FreeCAD files used to animate the assembly. Check the [ExplodedAssembly FreeCAD workbench](https://github.com/JMG1/ExplodedAssembly)
+  * [modifications](https://github.com/AngelLM/Thor/tree/developer/freecad-src/modifications) - Modifications made by some users
 * [stl](https://github.com/AngelLM/Thor/tree/developer/stl) - stl files of every piece of Thor
+  * [modifications](https://github.com/AngelLM/Thor/tree/developer/stl/modifications) - Modifications made by some users
 * firmware - The firmware used in this project is a grlb modification that can be found on [this repository](https://github.com/AngelLM/grbl)
 
 # Contributors
