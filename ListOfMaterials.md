@@ -3,9 +3,9 @@
 * 4x Kg of filament
 
 ## Stepper Motors
-* 2x Nema 17; L=40mm; Holding torque: 39.22 N.cm 
-* 3x Nema 17; L=34mm; 5:1 mechanical reduction; Holding torque: 121.2 N.cm 
-* 2x Nema 17; L=34mm; Holding torque: 21.57 N.cm 
+* 2x Nema 17; L=40mm; Holding torque: 39.22 N.cm
+* 3x Nema 17; L=34mm; 5:1 mechanical reduction; Holding torque: 121.2 N.cm
+* 2x Nema 17; L=34mm; Holding torque: 21.57 N.cm
 
 ## Belts & Pulleys
 * 2x GT2 Closed belt 208mm (104teeth)
@@ -47,29 +47,41 @@
 ##Electronics
 * 1x Arduino Mega
 * 1x Micro Endstop
+* 7x 40*40*10mm fans (steppers refrigeration)
 
-###Control PCB
-* 1x Cooper Plate 120mmx91mm
+###Control PCB V1
+* 1x Copper Plate 120mmx91mm
 * 7x A4988 Stepper Motor Driver
-* 7x 25V 100uF Capacitor
-* 7x 10kΩ Resistor
+* 7x 25V 100uF THT Capacitor
+* 7x 10kΩ THT Resistor
 * 97x Male Pins
 * 1x Barrel Jack Connector
 * 112x Female Pins
-* 1x 40mm Fan
+* 1x 80mm Fan
+* 1x Bus Wire 2x36
+
+###Control PCB V2 (current version)
+* 1x PCB
+* 8x A4988 Stepper Motor Driver
+* 8x 16V 100uF SMD 1206 Capacitor
+* 8x 100kΩ SMD 1206 Resistor
+* 8x 10kΩ SMD 1206 Resistor
+* 3x 220Ω SMD 1206 Resistor
+* 3x LED SMD 1206
+* 1x 1N4004 THT Diode
+* 1x MF-R700 Fuse
+* 169x Male Pins
+* 2x PCB Terminal Block (1x2)
+* 128x Female Pins
+* 24x Jumpers
+* 2x 40mm Fan
 * 1x Bus Wire 2x36
 
 ###Sensor PCBs
-* 4x Cooper Plate 36mmx16mm
+* 4x Copper Plate 36mmx16mm
 * 12x Male angled pin
 * 4x 10kΩ Resistor
 * 4x 220Ω Resistor
 * 4x Optocoupler
 * 1x 3m of wire
 * 5x 3 Wire connectors Female-Female
-
-
-
-
-
-
