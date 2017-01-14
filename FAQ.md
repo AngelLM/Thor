@@ -78,6 +78,7 @@ These are the software tools I have used:
  * [Atom](https://atom.io/): Building Text Editor
  * [Cura](https://ultimaker.com/en/products/cura-software): Slicing Software
  * [bCNC](https://github.com/vlachoudis/bCNC): CNC controller  
+
 These are the hardware tools I have used:
  * [Prusa i3 custom](http://reprap.org/wiki/Prusa_i3): 3D Printer
  * [Witbox](https://www.bq.com/es/witbox-2): 3D Printer
