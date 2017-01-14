@@ -4,7 +4,7 @@
 I suggest you to use the [Google Groups Community](https://groups.google.com/forum/#!forum/thor-opensource-3d-printable-robotic-arm). In this way, other users with the same question will find the answer easily.
 
 **Where can I find more documentation about this project?**  
-There are 3 main sites where you'll find info about this project:  
+There are 3 main sites where you'll find info about this project:
 * [Hackaday.io Project Page](https://hackaday.io/project/12989-thor)
 * [GitHub Repository](https://github.com/AngelLM/Thor)
 * [Google Groups Community](https://groups.google.com/forum/#!forum/thor-opensource-3d-printable-robotic-arm)
@@ -28,7 +28,7 @@ As most component I have used are also used to build 3D printers, you would find
 Currently I don't know anyone who sells a Thor kit. I'm not selling kits because the printing time is such that it would be very expensive.
 
 **What are the robot dimensions?**  
-Fully  stretched vertically Thor is 624,15mm (height) without the tool. In [this picture](https://github.com/AngelLM/Thor/blob/developer/ThorDimensions.png) you can see better it's dimensions.
+Fully  stretched vertically Thor is 624,15mm (height) without the tool. In [this picture](https://raw.githubusercontent.com/AngelLM/Thor/developer/doc/ThorDimensions.png) you can see better it's dimensions.
 
 **How much weight can Thor lift?**  
 Currently, the maximum load I succeeded to lift is 750 grams (including the tool weight). Thor can still lift that load when it's stretched horizontally, which is the worst scenario.
@@ -37,7 +37,7 @@ Currently, the maximum load I succeeded to lift is 750 grams (including the tool
 At this time I have not tested this yet. Coming soon.
 
 **What is its positioning accuracy?**  
-It depends on each articulation. The first two articulations have an accuracy of less than a degree. Third one has about a degree. Forth has about an error of 2 degrees. And the lasts two articulations have the worst accuracy, with an error of 3-4 grades more or less.  
+It depends on each articulation. The first two articulations have an accuracy of less than a degree. Third one has about a degree. Fourth has about an error of 2 degrees. And the lasts two articulations have the worst accuracy, with an error of 3-4 grades more or less.  
 Note 1: All of this data was collected manually and refers to my own prototype. The accuracy is directly linked to the printing accuracy and the assembly.  
 Note 2: as the current design has not feedback sensors to ensure the position I have assumed that the robot is moving well and is not missing steps.
 
@@ -71,14 +71,14 @@ Also, as I'm really concerned about OpenSource, I did it using OpenSource tools.
 Finally, as this project is Open, anyone can upgrade it and share it with the community. Making this project greater than what could have been if developed only by me.
 
 **What tools have you used in the development of Thor?**  
-These are the software tools I have used:  
+These are the software tools I have used:
  * [FreeCAD](http://www.freecadweb.org/): 3D Design
  * [Blender](https://www.blender.org/): 3D Design
  * [KiCaD](kicad-pcb.org/): Electronic Design
  * [Atom](https://atom.io/): Building Text Editor
  * [Cura](https://ultimaker.com/en/products/cura-software): Slicing Software
  * [bCNC](https://github.com/vlachoudis/bCNC): CNC controller  
-These are the hardware tools I have used:  
+These are the hardware tools I have used:
  * [Prusa i3 custom](http://reprap.org/wiki/Prusa_i3): 3D Printer
  * [Witbox](https://www.bq.com/es/witbox-2): 3D Printer
  * [Cyclone PCB Factory](http://reprap.org/wiki/Cyclone_PCB_Factory): CNC
