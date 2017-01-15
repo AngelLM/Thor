@@ -1,4 +1,4 @@
-# FREQUENT ASKED QUESTIONS
+# FREQUENTLY ASKED QUESTIONS
 
 **I have a question, where should I ask?**  
 I suggest you to use the [Google Groups Community](https://groups.google.com/forum/#!forum/thor-opensource-3d-printable-robotic-arm). In this way, other users with the same question will find the answer easily.
@@ -26,6 +26,9 @@ As most component I have used are also used to build 3D printers, you would find
 
 **Where can I buy a kit?**  
 Currently I don't know anyone who sells a Thor kit. I'm not selling kits because the printing time is such that it would be very expensive.
+
+**What printer I need to print it?**  
+A printing area of 200x200mm is enough to print all parts. If you want to print the Art2Body pieces in one single piece, instead of printing the sliced ones, you will need a 200x300mm printer area.
 
 **What are the robot dimensions?**  
 Fully  stretched vertically Thor is 624,15mm (height) without the tool. In [this picture](https://raw.githubusercontent.com/AngelLM/Thor/developer/doc/ThorDimensions.png) you can see better it's dimensions.

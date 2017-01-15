@@ -16,6 +16,10 @@ In terms of licenses, I wanted this project to be Open Source because I want any
 
 More about this project on the [Hackaday post](https://hackaday.io/project/12989-thor)!
 
+## Community  
+If you are interested in this project, please consider joining [our mail list](https://groups.google.com/forum/#!forum/thor-opensource-3d-printable-robotic-arm).
+
+
 # Repository Index
 * [doc](https://github.com/AngelLM/Thor/tree/developer/doc) - Misc documentation files
 * [electronics](https://github.com/AngelLM/Thor/tree/developer/electronics) - ControlPCB & SensorPCB KiCAD, gerbers & GCODE files
@@ -27,6 +31,7 @@ More about this project on the [Hackaday post](https://hackaday.io/project/12989
 * [stl](https://github.com/AngelLM/Thor/tree/developer/stl) - stl files of every piece of Thor
   * [modifications](https://github.com/AngelLM/Thor/tree/developer/stl/modifications) - Modifications made by other users
 * firmware - The firmware used in this project is a GRBL modification that can be found on [this repository](https://github.com/AngelLM/grbl)
+* [FAQ](https://github.com/AngelLM/Thor/blob/developer/FAQ.md) - Frequently Asked Questions
 
 # Contributors
 
