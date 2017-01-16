@@ -32,7 +32,7 @@ If you are interested in this project, please consider joining [our mail list](h
   * [modifications](https://github.com/AngelLM/Thor/tree/developer/stl/modifications) - Modifications made by other users
 * firmware - The firmware used in this project is a GRBL modification that can be found on [this repository](https://github.com/AngelLM/grbl)
 * [FAQ](https://github.com/AngelLM/Thor/blob/developer/FAQ.md) - Frequently Asked Questions
-
+* [ThorBuilders](https://github.com/AngelLM/Thor/blob/developer/ThorBuilders.md) - List of Thor builders
 # Contributors
 
 * [AngelLM](https://github.com/AngelLM): Main author. Released the project as Open Source and is the current maintainer.
