@@ -30,6 +30,9 @@ Currently I don't know anyone who sells a Thor kit. I'm not selling kits because
 **What printer I need to print it?**  
 A printing area of 200x200mm is enough to print all parts. If you want to print the Art2Body pieces in one single piece, instead of printing the sliced ones, you will need a 200x300mm printer area.
 
+**There is anything to consider before start printing it?**  
+Yes, in order to avoid possible printing issues, it is highly recommended to calibrate your printer before start printing the pieces. Make sure that the printed dimensions (both interior and exterior ones) fit the values of the design.
+
 **What are the robot dimensions?**  
 Fully  stretched vertically Thor is 624,15mm (height) without the tool. In [this picture](https://raw.githubusercontent.com/AngelLM/Thor/developer/doc/ThorDimensions.png) you can see better it's dimensions.
 
