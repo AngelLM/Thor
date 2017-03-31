@@ -8,5 +8,6 @@
 * [Navi Chan](https://hackaday.io/navichan): Assembled & Operational
 * [William Le Ferrand](https://groups.google.com/forum/#!topic/thor-opensource-3d-printable-robotic-arm/xrR8ILnFSqo): Assembled
 * [Oliver Schumacher](https://groups.google.com/forum/#!topic/thor-opensource-3d-printable-robotic-arm/-1GhTLVNHaA): In progress
+* [Boone Adkins](https://github.com/b-adkins): In pieces
 
 If you are making your own Thor or already did, do not hesitate on edit this file and include yourself as a Thor Builder!
