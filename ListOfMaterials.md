@@ -3,9 +3,10 @@
 * 4x Kg of filament
 
 ## Stepper Motors
-* 2x Nema 17; L=40mm; Holding torque: 39.22 N.cm
-* 3x Nema 17; L=34mm; 5:1 mechanical reduction; Holding torque: 121.2 N.cm
-* 2x Nema 17; L=34mm; Holding torque: 21.57 N.cm
+* 1x Nema 17; L=40mm; 3D Printer Stepper Motor; Holding torque: 45 N.cm 17HS16-2004S
+* 3x Nema 17; L=34mm; Planetary Gear Box and Stepper Motor 5:1; Holding torque: 121.2 
+    N.cm 17HS13-0404S-PG5
+* 3x Nema 17; L=34mm; Holding torque: 21.57 N.cm
 
 ## Belts & Pulleys
 * 2x GT2 Closed belt 208mm (104teeth)
