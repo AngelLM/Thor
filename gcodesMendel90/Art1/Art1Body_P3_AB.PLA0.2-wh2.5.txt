@@ -1,8 +1,8 @@
  
 Cost
-Machine time cost is 212.81$.
+Machine time cost is 222.15$.
 Material cost is 34.47$.
-Total cost is 247.27$.
+Total cost is 256.62$.
  
 Extent
 X axis extrusion starts at -68 mm and ends at 68 mm, for a width of 136 mm.
@@ -10,14 +10,14 @@ Y axis extrusion starts at -67 mm and ends at 67 mm, for a depth of 134 mm.
 Z axis extrusion starts at 0 mm and ends at 35 mm, for a height of 34 mm.
  
 Extruder
-Build time is 1 hour 10 minutes 56 seconds.
+Build time is 1 hour 14 minutes 3 seconds.
 Distance extruded is 320537.9 mm.
 Distance traveled is 400762.1 mm.
-Extruder speed is 95.0
+Extruder speed is 90.0
 Extruder was extruding 80.0 percent of the time.
 Extruder was toggled 11982 times.
-Operating flow rate is 9.5 mm3/s.
-Feed rate average is 94.2 mm/s, (5649.6 mm/min).
+Operating flow rate is 9.0 mm3/s.
+Feed rate average is 90.2 mm/s, (5412.1 mm/min).
  
 Filament
 Cross section area is 0.1 mm2.
