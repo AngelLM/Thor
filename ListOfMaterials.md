@@ -8,12 +8,12 @@
 * 2x Nema 17; L=34mm; Holding torque: 21.57 N.cm
 
 ## Belts & Pulleys
-* 2x GT2 Closed belt 208mm (104teeth)
+* 2x GT2 Closed belt 208mm (104 teeth)
 * 1x GT2 open belt 1m
 * 3x GT2x20 Pulley
 * 2x GT2x40 Pulley
 
-##Bearings
+## Bearings
 * 1x 16014zz Bearing
 * 11x 625ZZ Bearing
 * 2x MF84ZZ Bearing
@@ -25,7 +25,7 @@
 * 1x 102mmxØ5mm rod
 * 1x 128mmxØ5mm rod
 
-##Bolts & Nuts
+## Bolts & Nuts
 * 8x M2x8mm Bolt
 * 2x M2x10mm Bolt
 * 6x M3x6mm Bolt
@@ -44,12 +44,12 @@
 * 83x M3 Nut
 * 1x M5 Nut
 
-##Electronics
+## Electronics
 * 1x Arduino Mega
 * 1x Micro Endstop
 * 7x 40*40*10mm fans (steppers refrigeration)
 
-###Control PCB V1
+### Control PCB V1
 * 1x Copper Plate 120mmx91mm
 * 7x A4988 Stepper Motor Driver
 * 7x 25V 100uF THT Capacitor
@@ -60,7 +60,7 @@
 * 1x 80mm Fan
 * 1x Bus Wire 2x36
 
-###Control PCB V2 (current version)
+### Control PCB V2 (current version)
 * 1x PCB
 * 8x A4988 Stepper Motor Driver
 * 8x 16V 100uF SMD 1206 Capacitor
@@ -77,7 +77,7 @@
 * 2x 40mm Fan
 * 1x Bus Wire 2x36
 
-###Sensor PCBs
+### Sensor PCBs
 * 4x Copper Plate 36mmx16mm
 * 12x Male angled pin
 * 4x 10kΩ Resistor
