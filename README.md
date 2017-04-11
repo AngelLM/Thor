@@ -30,7 +30,7 @@ If you are interested in this project, please consider joining [our mail list](h
 * [step](https://github.com/AngelLM/Thor/tree/developer/step) - step files of every piece of Thor
 * [stl](https://github.com/AngelLM/Thor/tree/developer/stl) - stl files of every piece of Thor
   * [modifications](https://github.com/AngelLM/Thor/tree/developer/stl/modifications) - Modifications made by other users
-* firmware - The firmware used in this project is a GRBL modification that can be found on [this repository](https://github.com/AngelLM/grbl)
+* [firmware](https://github.com/AngelLM/grbl) - The firmware used in this project is a GRBL modification that can be found on [this repository](https://github.com/AngelLM/grbl)
 * [FAQ](https://github.com/AngelLM/Thor/blob/developer/FAQ.md) - Frequently Asked Questions
 * [ThorBuilders](https://github.com/AngelLM/Thor/blob/developer/ThorBuilders.md) - List of Thor builders
 # Contributors
