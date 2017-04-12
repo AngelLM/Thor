@@ -24,8 +24,8 @@ module Art1Body_P3() {
           import("ART1BODY_P3.stl");
       for(i=[-1,1])
         translate([i*15,50,0]) {
-          #translate([0,0,5])
-            cylinder(d=4.5,h=35,$fn=50);
+          translate([0,0,5])
+            cylinder(d=5.0,h=35,$fn=50);
           translate([0,0,-5])
             cylinder(d=2,h=80,$fn=50);
           translate([0,0,-5]) 
