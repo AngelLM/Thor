@@ -1,10 +1,10 @@
-<img src="doc/logo.png" width="500" align="center">
+<img align="center" src="doc/logo.png" width="500">
 
 Thor is an Open Source and printable robotic arm with six degrees of freedom.
 Its configuration (yaw-roll-roll-yaw-roll-yaw) is the same one that is used on most manipulator robots that currently exist in the market.
 In its upright position, Thor is about 625mm and it can lift objects up to 750 grams.
 
-<img src="doc/main.jpg" width="800" align="center">
+<img align="center" src="doc/main.jpg" width="800">
 
 The project started a year ago as my Final Degree Project called "Design and startup of an Open Source and printable 6DOF robotic arm" but a lot of things have changed since the presentation day.
 
