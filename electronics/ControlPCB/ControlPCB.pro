@@ -1,4 +1,4 @@
-update=sáb 26 nov 2016 14:09:57 CET
+update=jue 04 may 2017 19:57:09 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -109,3 +109,13 @@ LibName76=microchip_dspic33dsc
 LibName77=pspice
 LibName78=Modules/Pololu Driver/pololu_a4988
 LibName79=Modules/Arduino_Shield/arduino_shieldsNCL
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
