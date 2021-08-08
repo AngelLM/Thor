@@ -1,59 +1,37 @@
-<img src="doc/logo.png" width="500" align="center">
+<a href="http://thor.angel-lm.com/"><p align="center"><img src="doc/logo.png" height="100"></p></a>
 
-Thor is an Open Source and printable robotic arm with six degrees of freedom.
-Its configuration (yaw-roll-roll-yaw-roll-yaw) is the same one that is used on most manipulator robots that currently exist in the market.
-In its upright position, Thor is about 625mm and it can lift objects up to 750 grams.
+**Thor** is an Open Source and printable robot arm with six degrees of freedom.
+Its configuration (yaw-roll-roll-yaw-roll-yaw) is the same used by most of the manipulator robots on the market.
+In its extended position, Thor is about 625mm high and can lift loads up to 750 grams.
 
-<img src="doc/main.jpg" width="800" align="center">
+<p align="center"><img src="doc/main.jpg" height="300"></p>
 
-The project started a year ago as my Final Degree Project called "Design and startup of an Open Source and printable 6DOF robotic arm" but a lot of things have changed since the presentation day.
+The project started in 2015 as a final degree project called “Design and impplementation of an Open Source, 3D printed 6DOF robotic arm”. Since then, this project has continued to develop little by little.
 
-The main purpose of this project was to create a robotic arm that could be used in universities and schools to teach robotics instead of using simulation software or low accurate models. Having this in mind, the final prototype had to be affordable and, of course, Open Source. Once the project begun, I realized that it could be helpful in many areas I had not imagined when I first came up with the idea: small automations, training in factories, makers...
+The main purpose of this project was to design a robot that could be used in universities and schools to teach robotics.With this in mind, the design had to be affordable and accessible. Releasing the source files and doing so under an open source licence was the best option: anyone could study any element of the robot in depth and, moreover, modify or adapt it to their needs.
 
-As I said, this is a low-cost robotic arm. The cost of the whole materials is under 350€. Being this affordable, I think almost every school/university/maker could make good use of one at least!
+The cost of the whole materials is under 350€. Being so affordable, I think almost every school/university/maker could make good use of at least one!
 
-In terms of licenses, I wanted this project to be Open Source because I want anyone to have the opportunity to study, modify and improve it. Given this decision, I designed it entirely using Open Source software. This way, everyone can open the source files and modify them without buying licenses of proprietary software (sometimes unaffordable). There is not a single reason for not hacking Thor!
+In terms of licenses, I wanted this project to be Open Source because I want anyone to have the opportunity to study, modify and improve it. 
 
-More about this project on the [Hackaday post](https://hackaday.io/project/12989-thor)!
+Thor has been developed using only open source tools: [FreeCAD](https://www.freecadweb.org/) for the 3D modeling, [KiCAD](https://www.kicad.org/) for the PCB design and [GBRL](https://github.com/gnea/grbl) as firmware for the control electronics. In this way, access to knowledge can be guaranteed to anyone, anywhere, without any economic cost. There is not a single reason for not hacking Thor!
 
-## Community  
-If you are interested in this project, please consider joining [our mail list](https://groups.google.com/forum/#!forum/thor-opensource-3d-printable-robotic-arm).
+If you want to know more about this project, visit the [Thor Website](http://thor.angel-lm.com/), where you will find documentation, manuals and a forum to solve all your doubts.
 
 
 # Repository Index
 * [doc](https://github.com/AngelLM/Thor/tree/developer/doc) - Misc documentation files
-* [electronics](https://github.com/AngelLM/Thor/tree/developer/electronics) - ControlPCB & SensorPCB KiCAD, gerbers & GCODE files
 * [freecad-src](https://github.com/AngelLM/Thor/tree/developer/freecad-src) - FreeCAD source files of every piece of Thor
-  * [accessories](https://github.com/AngelLM/Thor/tree/developer/freecad-src/accessories) - Accessories for Thor (tools & end-effectors)
-  * [animation](https://github.com/AngelLM/Thor/tree/developer/freecad-src/animation) - FreeCAD files used to animate the assembly. Check the [ExplodedAssembly FreeCAD workbench](https://github.com/JMG1/ExplodedAssembly)
-  * [modifications](https://github.com/AngelLM/Thor/tree/developer/freecad-src/modifications) - Modifications made by some users
 * [step](https://github.com/AngelLM/Thor/tree/developer/step) - step files of every piece of Thor
 * [stl](https://github.com/AngelLM/Thor/tree/developer/stl) - stl files of every piece of Thor
-  * [modifications](https://github.com/AngelLM/Thor/tree/developer/stl/modifications) - Modifications made by other users
-* [firmware](https://github.com/AngelLM/grbl) - The firmware used in this project is a GRBL modification that can be found on [this repository](https://github.com/AngelLM/grbl)
-* [wiki](https://github.com/AngelLM/Thor/wiki/)
+* [wiki](https://github.com/AngelLM/Thor/wiki/) - currently deprecated, for updated info visit the [project's website](http://thor.angel-lm.com/)
   * [FAQ](https://github.com/AngelLM/Thor/wiki/FAQ) - Frequently Asked Questions
   * [Component list & Where to buy](https://github.com/AngelLM/Thor/wiki/Component-list) - List of every component needed in this project and links to online shops where they can be bought.
   * [ThorBuilders](https://github.com/AngelLM/Thor/wiki/List-of-Thor-Builders) - List of Thor builders
 
-# Contributors
-
-* [AngelLM](https://github.com/AngelLM): Main author. Released the project as Open Source and is the current maintainer.
-
-* [Danny-VdH](https://github.com/Danny-VdH): Check his modifications & features at [Hackaday post: Thor robot with addons and GUI](https://hackaday.io/project/16665-thor-robot-with-addons-and-gui)!
-
-Do not hesitate on contributing to this project!
-
-
-# Thanks
-
-Until March of 2016 this project was sponsored by BQ, I would like to thank the company and my colleagues because without them, this project would have not been possible.
-Also I would like to thank Miguel Hernando, who was my Final Degree Project tuthor, for his help and awesome tips.
-Of course, I also would like to thank my friends and family for the support and the hours of listening.
-
 
 # License
 
-<img src="doc/By-sa.png" width="200">
+<a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode"><p align="center"><img src="doc/By-sa.png" height="50"></p></a>
 
-All files included in this repository are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/)
+All files included in this repository are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/legalcode) 
