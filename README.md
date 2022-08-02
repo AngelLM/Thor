@@ -6,7 +6,7 @@ In its extended position, Thor is about 625mm high and can lift loads up to 750 
 
 <p align="center"><img src="doc/main.jpg" height="300"></p>
 
-The project started in 2015 as a final degree project called “Design and impplementation of an Open Source, 3D printed 6DOF robotic arm”. Since then, this project has continued to develop little by little.
+The project started in 2015 as a final degree project called “Design and implementation of an Open Source, 3D printed 6DOF robotic arm”. Since then, this project has continued to develop little by little.
 
 The main purpose of this project was to design a robot that could be used in universities and schools to teach robotics.With this in mind, the design had to be affordable and accessible. Releasing the source files and doing so under an open source licence was the best option: anyone could study any element of the robot in depth and, moreover, modify or adapt it to their needs.
 
