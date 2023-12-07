@@ -22,6 +22,7 @@ In this folder you'll find the FreeCAD, STEP and STL files for modifications tha
 
 <br/>
 
+
 ## End Effectors
 
 ### User-designed tools and end effectors for Thor
@@ -32,5 +33,18 @@ In this folder you'll find the FreeCAD, STEP and STL files for modifications tha
     * SuctionCupToolHolder
 
 <br/>
+
+## Tolerances and different hardware
+
+### Modifications to parts that improve print tolerance or serve to use components other than those listed in the BOM.
+
+
+<br/>
+
+* [se1exin](https://github.com/se1exin) 
+    * Art4BearingRing_5.98mm_Balls
+
+<br/>
+
 
 Thank you guys ;)
