@@ -1,37 +1,110 @@
-<a href="http://thor.angel-lm.com/"><p align="center"><img src="doc/logo.png" height="100"></p></a>
+<a href="http://thor.angel-lm.com">
+    <picture>
+      <source height="100" media="(prefers-color-scheme: dark)" srcset="doc/logo_dark.svg">
+      <img height="100" alt="Fiber" src="doc/logo_light.svg">
+    </picture>
+  </a>
 
-**Thor** is an Open Source and printable robot arm with six degrees of freedom.
-Its configuration (yaw-roll-roll-yaw-roll-yaw) is the same used by most of the manipulator robots on the market.
-In its extended position, Thor is about 625mm high and can lift loads up to 750 grams.
+<br>
 
-<p align="center"><img src="doc/main.jpg" height="300"></p>
+<a href="http://thor.angel-lm.com/">
+    <img src="https://img.shields.io/badge/website-thor.angel--lm.com-red?logo=htmx">
+</a>
+<a href="http://thor.angel-lm.com/worldwide/">
+    <img src="https://img.shields.io/endpoint?url=https://angel-lm.com/thor/thor-counter.php">
+</a>
+<a href="http://thor.angel-lm.com/forums/">
+    <img src="https://img.shields.io/endpoint?url=https://angel-lm.com/thor/forum-counter.php&color=orange">
+</a>
+<a href="https://discord.com/invite/a5dSVqSUK5">
+    <img src="https://img.shields.io/discord/1189278202514907166?label=discord&logo=discord">
+</a>
+<a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode">
+    <img src="https://img.shields.io/github/license/angellm/Thor">
+</a>
 
-The project started in 2015 as a final degree project called “Design and implementation of an Open Source, 3D printed 6DOF robotic arm”. Since then, this project has continued to develop little by little.
+---
 
-The main purpose of this project was to design a robot that could be used in universities and schools to teach robotics.With this in mind, the design had to be affordable and accessible. Releasing the source files and doing so under an open source licence was the best option: anyone could study any element of the robot in depth and, moreover, modify or adapt it to their needs.
+**Thor** is an open source, 3D printed, 6 degrees of freedom robotic arm. Designed to be affordable and accessible, Thor is ideal for educational settings, makers, and robotics enthusiasts. With a height of 625mm it has the capacity to lift up to 750g. Its yaw-roll-roll-yaw-roll-yaw configuration is common in industrial manipulators.
 
-The cost of the whole materials is under 350€. Being so affordable, I think almost every school/university/maker could make good use of at least one!
+<img src="doc/banner.png" height="200">
+---
 
-In terms of licenses, I wanted this project to be Open Source because I want anyone to have the opportunity to study, modify and improve it. 
+## ✨ Key Features
 
-Thor has been developed using only open source tools: [FreeCAD](https://www.freecadweb.org/) for the 3D modeling, [KiCAD](https://www.kicad.org/) for the PCB design and [GBRL](https://github.com/gnea/grbl) as firmware for the control electronics. In this way, access to knowledge can be guaranteed to anyone, anywhere, without any economic cost. There is not a single reason for not hacking Thor!
+- 🧩 **Born Open Source**: Designed using open source software such as FreeCAD, KiCAD, GRBL, RRF and ROS.
+- 🕊️ **Released Open Source**: All source files published under CC-BY-SA-4.0 license.
+- 💰 **Low Cost**: Hardware cost below 350€.
+- 📚  **Suitable for education**: Perfect for robotics courses in schools and universities, there are already success cases!
+- 🧰 **G-code Controlled**: Uses the same language as 3d printers and CNCs to move.
+- 🐳 **ROS2 Integration**: Available implementation using Docker for flexibility.
 
-If you want to know more about this project, visit the [Thor Website](http://thor.angel-lm.com/), where you will find documentation, manuals and a forum to solve all your doubts.
+---
 
+## 📦 Repository Structure
+- `freecad-src` – Source files of 3D models created with FreeCAD
+- `mods` – Modified models and improvements to standard models
+- `stl` – Printable STL files
+- `step` – STEP files
 
-# Repository Index
-* [doc](https://github.com/AngelLM/Thor/tree/developer/doc) - Misc documentation files
-* [freecad-src](https://github.com/AngelLM/Thor/tree/developer/freecad-src) - FreeCAD source files of every piece of Thor
-* [step](https://github.com/AngelLM/Thor/tree/developer/step) - step files of every piece of Thor
-* [stl](https://github.com/AngelLM/Thor/tree/developer/stl) - stl files of every piece of Thor
-* [wiki](https://github.com/AngelLM/Thor/wiki/) - currently deprecated, for updated info visit the [project's website](http://thor.angel-lm.com/)
-  * [FAQ](https://github.com/AngelLM/Thor/wiki/FAQ) - Frequently Asked Questions
-  * [Component list & Where to buy](https://github.com/AngelLM/Thor/wiki/Component-list) - List of every component needed in this project and links to online shops where they can be bought.
-  * [ThorBuilders](https://github.com/AngelLM/Thor/wiki/List-of-Thor-Builders) - List of Thor builders
+---
 
+## 🔗 Related Repositories
+- [**Thor-ROS**](https://github.com/AngelLM/Thor-ROS): ROS2 & Moveit2 configuration files and packages to work with Thor.
+- [**ThorControlPCB**](https://github.com/AngelLM/ThorControlPCB): Source & manufacture files of Arduino Mega shield designed to control Thor.
+- [**Asgard**](https://github.com/AngelLM/Asgard): Control software for thor motors with a simple interface.
 
-# License
+---
 
-<a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode"><p align="center"><img src="doc/By-sa.png" height="50"></p></a>
+## 🚀 Getting Started
 
-All files included in this repository are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/legalcode) 
+1. **Read the Documentation**: Comprehensive guides on printing, assembly, electronics, and firmware are available at [thor.angel-lm.com/documentation](http://thor.angel-lm.com/documentation/).
+2. **Print the Parts**: Use the STL files in this repository.
+3. **Get the Hardware**: Take a look to the [Bill of Materials](http://thor.angel-lm.com/documentation/bom/).
+4. **Assemble the Robot**: See [here](http://thor.angel-lm.com/documentation/assembly/) for assembly videos and interactive instructions. 
+5. **Assemble & Setup the Electronics**: The [Wiring & Setup](http://thor.angel-lm.com/documentation/electronics/) guide will help you prepare your electronic board and make the hardware connections. 
+6. **Install the Firmware**: Depending on which electronics you have chosen, you will have to perform a different firmware configuration. [This page](http://thor.angel-lm.com/documentation/firmware/) explains the steps to follow.
+7. **Control the Robot**: Use Asgard to move the robot. [Here](http://thor.angel-lm.com/documentation/control-software/) is how to do it.
+
+---
+
+## 🧠 Technical Specifications
+
+- **Degrees of Freedom**: 6 (yaw-roll-roll-yaw-roll-yaw).
+- **Height Stretched**: 625mm (without end effector).
+- **Payload Capacity**: 750g max (including end effector weight).
+- **Motors**: Stepper motors.
+- **Electronics**: DIY PCB or commercial boards.
+- **Transmission**: 3D printed gears, GT2 pulleys and belts.
+- **Software**: FreeCAD, KiCAD, GRBL, RRF, ROS2.
+
+---
+
+## 📚 Additional Resources
+
+- 🌐 **Official Website**: [thor.angel-lm.com](http://thor.angel-lm.com/)
+- ❓ **Frequently Asked Questions**: [FAQ](http://thor.angel-lm.com/faq/)
+- 💬 **Thor Community Forums**: [Thor Forums](http://thor.angel-lm.com/forums/)
+- 💬 **Thor Discord Server**: [Thor Robot Community](https://discord.com/invite/a5dSVqSUK5)
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! If you'd like to improve Thor — whether it's design, documentation, or code — feel free to open an [Issue](https://github.com/AngelLM/Thor/issues) or submit a Pull Request.
+
+---
+
+## 📜 License
+
+Thor is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/legalcode). You’re free to use, modify, and distribute this project under its terms.
+
+---
+
+## 🎥 Videos
+
+[![Watch on YouTube](https://img.youtube.com/vi/F2CDeHrFr2k/0.jpg)](https://www.youtube.com/watch?v=F2CDeHrFr2k)
+
+[![Watch on YouTube](https://img.youtube.com/vi/e0BGN1eIjiI/0.jpg)](https://www.youtube.com/watch?v=e0BGN1eIjiI)
+
+[![Watch on YouTube](https://img.youtube.com/vi/nDCN46trJvs/0.jpg)](https://www.youtube.com/watch?v=nDCN46trJvs)
