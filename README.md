@@ -1,34 +1,35 @@
-<a href="http://thor.angel-lm.com">
+<h1 align="center">
+ <a href="http://thor.angel-lm.com">
     <picture>
-      <source height="100" media="(prefers-color-scheme: dark)" srcset="doc/logo_dark.svg">
-      <img height="100" alt="Fiber" src="doc/logo_light.svg">
+      <source height="80" media="(prefers-color-scheme: dark)" srcset="doc/logo_dark.svg">
+      <img height="80" alt="Fiber" src="doc/logo_light.svg">
     </picture>
   </a>
 
-<br>
+ <br>
 
-<a href="http://thor.angel-lm.com/">
-    <img src="https://img.shields.io/badge/website-thor.angel--lm.com-red?logo=htmx">
-</a>
-<a href="http://thor.angel-lm.com/worldwide/">
-    <img src="https://img.shields.io/endpoint?url=https://angel-lm.com/thor/thor-counter.php">
-</a>
-<a href="http://thor.angel-lm.com/forums/">
-    <img src="https://img.shields.io/endpoint?url=https://angel-lm.com/thor/forum-counter.php&color=orange">
-</a>
-<a href="https://discord.com/invite/a5dSVqSUK5">
-    <img src="https://img.shields.io/discord/1189278202514907166?label=discord&logo=discord">
-</a>
-<a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode">
-    <img src="https://img.shields.io/github/license/angellm/Thor">
-</a>
-
----
-
-**Thor** is an open source, 3D printed, 6 degrees of freedom robotic arm. Designed to be affordable and accessible, Thor is ideal for educational settings, makers, and robotics enthusiasts. With a height of 625mm it has the capacity to lift up to 750g. Its yaw-roll-roll-yaw-roll-yaw configuration is common in industrial manipulators.
-
-<img src="doc/banner.png" height="200">
----
+ <a href="http://thor.angel-lm.com/">
+     <img src="https://img.shields.io/badge/website-thor.angel--lm.com-red?logo=htmx">
+ </a>
+ <a href="http://thor.angel-lm.com/worldwide/">
+     <img src="https://img.shields.io/endpoint?url=https://angel-lm.com/thor/thor-counter.php">
+ </a>
+ <a href="http://thor.angel-lm.com/forums/">
+     <img src="https://img.shields.io/endpoint?url=https://angel-lm.com/thor/forum-counter.php&color=orange">
+ </a>
+ <a href="https://discord.com/invite/a5dSVqSUK5">
+     <img src="https://img.shields.io/discord/1189278202514907166?label=discord&logo=discord">
+ </a>
+ <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode">
+     <img src="https://img.shields.io/github/license/angellm/Thor">
+ </a>
+</h1>
+<p align="center">
+ <em><b>Thor</b> is an open source, 3D printed, 6 degrees of freedom robotic arm. Designed to be affordable and accessible, Thor is ideal for educational settings, makers, and robotics enthusiasts. With a height of 625mm it has the capacity to lift up to 750g. Its yaw-roll-roll-yaw-roll-yaw configuration is common in industrial manipulators.</em>
+</p>
+<p align="center">
+ <img src="doc/banner.png" width="800">
+</p>
 
 ## ✨ Key Features
 
@@ -39,7 +40,6 @@
 - 🧰 **G-code Controlled**: Uses the same language as 3d printers and CNCs to move.
 - 🐳 **ROS2 Integration**: Available implementation using Docker for flexibility.
 
----
 
 ## 📦 Repository Structure
 - `freecad-src` – Source files of 3D models created with FreeCAD
@@ -47,14 +47,13 @@
 - `stl` – Printable STL files
 - `step` – STEP files
 
----
 
 ## 🔗 Related Repositories
 - [**Thor-ROS**](https://github.com/AngelLM/Thor-ROS): ROS2 & Moveit2 configuration files and packages to work with Thor.
 - [**ThorControlPCB**](https://github.com/AngelLM/ThorControlPCB): Source & manufacture files of Arduino Mega shield designed to control Thor.
 - [**Asgard**](https://github.com/AngelLM/Asgard): Control software for thor motors with a simple interface.
 
----
+
 
 ## 🚀 Getting Started
 
@@ -66,7 +65,7 @@
 6. **Install the Firmware**: Depending on which electronics you have chosen, you will have to perform a different firmware configuration. [This page](http://thor.angel-lm.com/documentation/firmware/) explains the steps to follow.
 7. **Control the Robot**: Use Asgard to move the robot. [Here](http://thor.angel-lm.com/documentation/control-software/) is how to do it.
 
----
+
 
 ## 🧠 Technical Specifications
 
@@ -78,7 +77,7 @@
 - **Transmission**: 3D printed gears, GT2 pulleys and belts.
 - **Software**: FreeCAD, KiCAD, GRBL, RRF, ROS2.
 
----
+
 
 ## 📚 Additional Resources
 
@@ -87,19 +86,19 @@
 - 💬 **Thor Community Forums**: [Thor Forums](http://thor.angel-lm.com/forums/)
 - 💬 **Thor Discord Server**: [Thor Robot Community](https://discord.com/invite/a5dSVqSUK5)
 
----
+
 
 ## 🤝 Contributing
 
 Contributions are welcome! If you'd like to improve Thor — whether it's design, documentation, or code — feel free to open an [Issue](https://github.com/AngelLM/Thor/issues) or submit a Pull Request.
 
----
+
 
 ## 📜 License
 
 Thor is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/legalcode). You’re free to use, modify, and distribute this project under its terms.
 
----
+
 
 ## 🎥 Videos
 
